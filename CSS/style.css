@@ -51,7 +51,31 @@
     border: 1px dashed black;
 }
 
-
+.debug footer {
+    background-color: darkslategray;
+    width: 100%;
+    padding-top: 20px;
+}
+.debug .footer-top {
+    background-color: blue;
+    border: 1px solid red;
+    height: 500px;
+    margin-bottom: 40px;
+}
+.debug .footer-bottom {
+    background-color: orange;
+    border: 1px solid red;
+    height: 100px;
+}
+.debug .box.big {
+    background-color: pink;
+    border: 1px dashed red;
+}
+.debug .box {
+    width: calc(100% / 4);
+    background-color: aquamarine;
+    border: 1px dashed white;
+}
 /* Regole CSS */
 .container {
     width: 1170px;
@@ -74,6 +98,7 @@
 .download {
     width: 50%;
 }
+
 section {
     display: flex;
     justify-content: center;
@@ -83,4 +108,18 @@ section {
 }
 .bg-grey {
     background-color: lightgray;
+}
+
+.footer-top {
+    margin-bottom: 40px;
+    display: flex;
+}
+.footer-bottom {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box.big {
+    width: 40%;
 }
