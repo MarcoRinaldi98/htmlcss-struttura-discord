@@ -6,5 +6,43 @@
     box-sizing: border-box;
 }
 /* Regole di DEBUG */
-
+.debug .header-top{
+    background-color:aquamarine;
+    height: 100px;
+}
+.debug .login{
+    background-color: crimson;
+    border: 1px dashed black;
+    height: 50px;
+}
+.debug .header-bottom {
+    background-color: blue;
+    height: 500px;
+}
+.debug .download {
+    background-color: hotpink;
+    border: 1px dashed black;
+    height: 300px;
+}
 /* Regole CSS */
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.header-top{
+    display: flex;
+    justify-content: center;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download {
+    width: 50%;
+}
