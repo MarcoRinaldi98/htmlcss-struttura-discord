@@ -25,7 +25,31 @@
     height: 300px;
 }
 
-
+.debug section {
+    height: 400px;
+}
+.debug .cella {
+    height: 300px;
+    border: 1px solid red;
+}
+.debug .img{
+    background-color: cornflowerblue;
+    width: 60%;
+    border: 1px dashed white;
+}
+.debug .text {
+    background-color:  pink;
+    width: 40%;
+    border: 1px dashed green;
+}
+.debug .big-section {
+    height: 800px;
+}
+.debug .column {
+    height: 700px;
+    background-color: green;
+    border: 1px dashed black;
+}
 
 
 /* Regole CSS */
@@ -50,4 +74,13 @@
 .download {
     width: 50%;
 }
-
+section {
+    display: flex;
+    justify-content: center;
+}
+.cella {
+    display: flex;
+}
+.bg-grey {
+    background-color: lightgray;
+}
